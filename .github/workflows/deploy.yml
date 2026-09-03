@@ -38,3 +38,6 @@ jobs:
 
       - name: Deploy Hello World notebook
         run: python src/deploy_notebook.py
+
+      - name: Deploy ops_pipeline3 replacement notebook
+        run: python src/deploy_notebook.py notebooks/replace_ops_pipeline3.ipynb replace_ops_pipeline3
