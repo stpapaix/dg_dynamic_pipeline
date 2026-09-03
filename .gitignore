@@ -11,3 +11,8 @@ __pycache__/
 venv/
 env/
 .python-version
+
+# Derived pipeline export artifacts
+data/*_export/
+*.pretty.json
+src/.auth_record.json
